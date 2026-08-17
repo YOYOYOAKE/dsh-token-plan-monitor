@@ -7,7 +7,7 @@ DeepSeek Harness 插件，用于在侧边栏底部 API 余额或 Token Plan 用�
 - DeepSeek Platform 余额
 - OpenCode Go
 
-![cover](docs/cover.png)
+![cover](https://raw.githubusercontent.com/YOYOYOAKE/dsh-token-plan-monitor/main/docs/cover.png)
 
 ## 安装
 
@@ -76,15 +76,6 @@ npm install          # 安装编译期依赖，并触发 prepare 构建 lib/
 npm run typecheck    # 类型检查
 npm run build        # 构建宿主端 + 客户端 bundle
 ```
-
-### 发布到 npm
-
-```bash
-npm login
-npm publish --access public
-```
-
-`prepare` 会在打包前自动执行 `npm run build`，因此发布到 npm 的 tarball 会包含 `lib/`；Git 仓库中不需要提交 `lib/`。
 
 开发时修改源码后重新执行 `npm run build`，刷新浏览器即可看到效果；`cordis.patch.yml` 会被 profile 的补丁监视器热重载。
 

@@ -1,6 +1,6 @@
 {
   "name": "@yoyoyoake/dsh-token-plan-monitor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Multi-provider usage monitor for DeepSeek Harness: per-provider balance / token-plan usage card in the sidebar footer (above the Settings button) plus a「用量监控」settings section for per-provider special config (cookies, API keys), persisted in settings.yaml.",
   "main": "lib/index.js",
